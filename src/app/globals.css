@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  height:100%;
+  overflow-x: hidden;
+ 
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+
+}
+
+.container {
+  max-width: 1366px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+}
+
+p,span {
+  line-height: 1.8;
+}
+.theme {
+  transition: all 0.4s ease-in-out;
+}
+.dark {
+  background-color: rgb(20, 20, 20);
+  color:#fff;
+}
+.light {
+  background-color: rgb(255, 255, 255);
+  color:rgb(20, 20, 20);;
+}

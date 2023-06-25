@@ -1,0 +1,18 @@
+.imgContainer {
+    position: relative;
+    object-fit: contain;
+    width: 500px;
+    height: 300px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
