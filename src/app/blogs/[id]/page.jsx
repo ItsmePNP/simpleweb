@@ -4,7 +4,7 @@ import Button from "@/components/buttons/Button";
 import Image from "next/image";
 
 async function getData(id) {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`, {
+  const res = await fetch(`http://localhost:3000/api/posts/${id}`, {
     cache: "no-store",
   });
 
